@@ -1,0 +1,116 @@
+.p_textOnBox{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+#LED_STATUS{
+    font-family: 'Fira Sans', sans-serif;
+}
+#txt_LEDSwitch_STATUS_TEXT{
+    font-family: 'Fira Sans', sans-serif;
+}
+#SensorValue_TXT{
+    font-family: 'Fira Sans', sans-serif;
+}
+#SensorValue{
+    font-family: 'Fira Sans', sans-serif;
+}
+#LEDSTATE_TXT{
+    font-family: 'Fira Sans', sans-serif;
+}
+#LEDSTATE{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+.OuterContentBody{
+    border-style: solid;
+    height: 700px;
+    width: 40%;
+
+    background-color: #01DDFF;
+
+
+}
+
+.InnerContentBody{
+    border-style: solid;
+    height: 650px;
+    width: 80%;   
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* margin-right: 150px;
+    margin-left: 80px; */
+
+    background-color: #FFFE03;
+}
+.ABOUT_PROJECT{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    }
+    
+a:visited{
+    text-decoration: none;
+    
+}
+body{
+    background-color: #444444;
+}
+
+div.InnerText{
+    border-style: solid;
+    height: auto;
+    width: 75%; 
+    background-color: #01DDFF;
+    
+    margin-top: 5%;
+    margin-bottom: -5%;
+}
+
+a.ABOUT_PROJECT{
+    margin-right: 65%;
+    padding-top: 20%;
+}
+
+a.ABOUT_PROJECT:hover{
+    margin-right: 65%;
+    padding-top: 20%;
+
+    color: #01DDFF;
+}
+h1.NODEMCU_HEADER{
+    margin-right: 30%;
+    font-family: 'Fira Sans', sans-serif;
+}
+div.imageBox{
+    height: auto;
+    width: auto; 
+
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    
+}
+h5.turnOnLED{
+    font-size: 35px;
+
+    padding-top: 5%;
+}
+
+p.textOnBox{
+    font-size: 25px;
+    font-family: 'Fira Sans', sans-serif;
+}
+#LED_STATUS{
+    font-size: 25px;
+}
+
+
+
+

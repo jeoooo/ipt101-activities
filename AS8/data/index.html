@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/nodeMCU.png" type="image/icon type">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NodeMCU Web Server</title>
+</head>
+
+<body>
+    <center>
+        <div class="OuterContentBody">
+            <div class="InnerContentBody">
+                <h1 class="NODEMCU_HEADER">
+                    NodeMCU v3 Server
+                </h1>
+
+                <a href="about.html" class="ABOUT_PROJECT">
+                    <b>
+                        About Project
+                    </b>
+                </a>
+                <div class="imageBox">
+                    <img src="img/nodeMCU.png" alt="NodeMCU ESP8266" width="120 " height="120">
+                    <img src="img/LDR.jpg" alt="LDR" width="auto" height="125">
+                </div>
+                <div class="InnerText">
+
+                    <p class=" textOnBox">
+                        To turn on the on-board LED
+                        <br>
+                        <br>
+                        cover the Photocell
+                    </p>
+
+                    <p id="SensorValue_TXT">
+                        Sensor Value:
+                    </p>
+
+                    <!-- // ajax value -->
+                    <p id="SensorValue"> </p> 
+
+                 
+
+                    <p id="LEDSTATE_TXT">
+                        LED Status:
+                    </p>
+
+                    <!-- //ajax value -->
+                    <p id="LEDSTATE"> </p> 
+
+                </div>
+                
+            </div>
+
+        </div>
+    </center>
+</body>
+
+</html>

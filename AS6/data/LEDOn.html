@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="css/LEDSwitcher.css">
+    <link rel="icon" href="img/LEDOn.png" type="image/icon type">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NodeMCU Web Server</title>
+</head>
+
+<body>
+    <center>
+        <div class="OuterContentBody">
+            <div class="InnerContentBody">
+                <h1 class="NODEMCU_HEADER">
+                    NodeMCU v3 Server
+                </h1>
+
+                <a href="index.html" class="ABOUT_PROJECT">
+                    <b>
+                        About Project
+                    </b>
+                </a>
+                <div class="imageBox">
+                    <img src="img/nodeMCU.png" alt="NodeMCU ESP8266" width="120 " height="120">
+                    <img src="img/LEDOn.png" alt="LED_ON" width="auto" height="200">
+                </div>
+                <div class="InnerText">
+                    <p class="textOnBox">
+                        To turn off the on-board LED <br>
+                        press the switch below
+                    </p>
+
+                    <p id="LED_STATUS">
+                        LED Status: <b> ON </b>
+                    </p>
+                </div>
+                <h5 class="turnOnLED" id="txt_LEDSwitch_STATUS_TEXT">
+                    Turn off LED
+                    <a href="LEDOff.html">
+                        <img src="img/Switch_ON.png" alt="Switch_ON" width="auto" height="35">
+                    </a>
+                </h5>
+            </div>
+
+        </div>
+    </center>
+</body>
+
+</html>

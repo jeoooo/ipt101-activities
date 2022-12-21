@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/nodeMCU.png" type="image/icon type">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <!-- <script>
+        // var x = setInterval(function () { loadData("data.txt", updateData()) }, 1000);
+
+        // function loadData(url, callback) {
+        //     var xhttp = new XMLHttpRequest();
+        //     xhttp.onreadystatechange = function () {
+        //         if (this.readyState == 4 && this.status == 200) {
+        //             callback.apply(xhttp);
+        //         }
+        //     };
+        //     xhttp.open("GET", url, true);
+        //     xhttp.send();
+        // }
+        // function updateData() {
+
+        //     if (document.getElementById("data") >= 1024) {
+        //         var state = "darkest";
+        //         document.getElementById("data").innerHTML = loadData() + state;
+        //     }
+        //     else if (document.getElementById("data") <= 512) {
+        //         var state = "darker";
+        //         document.getElementById("data").innerHTML = loadData() + state;
+        //     }
+        //     else if (document.getElementById("data") < 256) {
+        //         var state = "dark";
+        //         document.getElementById("data").innerHTML = loadData() + state;
+        //     }
+        // }
+    </script> -->
+    <title>ESP 8266 Server</title>
+</head>
+
+<body>
+    <div class="txtBox">
+        <center>
+            <h1>ESP8266 Web Server with Sensor Data</h1>
+            <img src="img/nodemcuboard.jpg" alt="assignmentboard" width="auto" height="180px">
+        </center>
+        <p align="justify" id="paragraphdescription">
+            This webpage displays the values coming from the Photocell (Light Dependent Resistor) in real-time!
+            without actually refreshing the page.
+            This is done by implementing Asynchronous JavaScript and XML or AJAX to the ESP8266 Web Server. <br> <br>
+
+            LDR State values are as follows: <br>
+        </p>
+
+        </p>
+            <dl>
+                <dt>
+                    512 and above
+                </dt>
+                <dd>
+                    - Darkest
+                </dd>
+                <br>
+                <dt>
+                    256 - 512
+                </dt>
+                <dd>
+                    - Darker
+                </dd>
+                <br>
+                <dt>
+                    256 and below
+
+                </dt>
+                <dd>
+                    - Darker
+
+                </dd>
+            </dl>
+
+        <h1>Data:</h1>
+        <h2 id='data'> </h2>
+
+    </div>
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,65 @@
+/* BUTTON CSS */
+.Continuebtn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 20px;
+    background: #ffffff;
+    padding: 10px 20px 10px 20px;
+    border: solid #000000 2px;
+    text-decoration: none;
+}
+  
+.Continuebtn:hover {
+    background: #01DDFF;
+    text-decoration: none;
+}
+
+/* div css starts here */
+h1{
+    font-family: 'Fira Sans', sans-serif;
+    color: /* */ ;
+}
+
+p{
+    font-family: 'Fira Sans', sans-serif;
+    color: /* */ ;
+    
+}
+.OuterContentBody{
+    border-style: solid;
+    height: 700px;
+    width: 40%;
+
+    background-color: #01DDFF;
+}
+
+.InnerContentBody{
+    border-style: solid;
+    height: 600px;
+    width: 80%;   
+
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+    background-color: #FFFE03;
+}
+
+body{
+    background-color: #444444;
+}
+div.InnerText{
+    border-style: solid;
+    background-color: #01DDFF;
+    height: auto;
+    width: 60%; 
+    margin-bottom: 1%;
+    
+}
+
+
+
+
+
